@@ -34,7 +34,8 @@ import junit.framework.Assert;
 
 public class SubmitOrderTest extends BaseTest {
 	
-	//This line is to check GitHub-Jenkins webhook triggering process (Demo)
+	//This line is to check GitHub-Jenkins webhook triggering process
+
 	@Test(dataProvider="getData", retryAnalyzer=Retry.class)
 	public void SubmitOrder(HashMap<String,String> hm) throws IOException 
 	{
