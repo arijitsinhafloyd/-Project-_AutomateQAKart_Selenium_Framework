@@ -1,0 +1,32 @@
+[
+	{
+		"username": "testuser",
+		"password":"@Test123",
+		"product1":"Samsung Galaxy Watch 6",
+		"product2": "KitchenAid Stand Mixer",
+		"product3": "Wilson Pro Tennis Racket",
+		"name":"Kartik Aryan",
+		"phone": "9307802686",
+		"pin": "567897",
+		"locality":"D.T.Road",
+		"address":"Room 123, Thailand Park, 89765",
+		"city":"Desher Bondhu",
+		"state":"Desh"
+	},
+	
+	{
+		"username":"testuser",
+		"password":"@Test123",
+		"product1":"iPhone 15 Pro Max",
+		"product2":"Sony WH-1000XM5",
+		"product3": "The Complete Guide to Automation Testing",
+		"name":"Shah Rukh Khan",
+		"phone": "9407902690",
+		"pin": "567786",
+		"locality":"G.T.Road",
+		"address":"Room 123, Mannat, 89765",
+		"city":"Mumbai",
+		"state":"Bollywood"
+	}
+	
+]

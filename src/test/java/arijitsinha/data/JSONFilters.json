@@ -1,0 +1,23 @@
+[
+	{
+		"username":"testuser",
+		"password":"@Test123",
+		"sortBy":"Price: Low to High",
+		"categories":"Electronics",
+		"priceRangeMin":"70",
+		"priceRangeMax":"900",
+		"brand":"Sony",
+		"rating":"4★ & above"
+	},
+	
+	{
+		"username":"testuser",
+		"password":"@Test123",
+		"sortBy":"Customer Rating",
+		"categories":"Clothing",
+		"priceRangeMin":"70",
+		"priceRangeMax":"900",
+		"brand":"Levi's",
+		"rating":"3★ & above"
+	}
+]
