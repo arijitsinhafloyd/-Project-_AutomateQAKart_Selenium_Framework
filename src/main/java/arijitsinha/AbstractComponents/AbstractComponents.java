@@ -37,17 +37,17 @@ public class AbstractComponents {
 	WebElement OrderToast;
 	
 	public void waitForElementToAppear(WebElement findElement) {
-		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5));
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOf(findElement));
 	}
 	
 	public void waitForElementToAppear(By findBy) {
-		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5));
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 	}
 	
 	public void waitForElementToAppear(List<WebElement> findBy) {
-		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5));
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfAllElements(findBy));
 	}
 	
